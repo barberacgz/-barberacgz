@@ -1,0 +1,6 @@
+    if(p->left && ((rear+1)%size != front))
+    {
+      rear = (rear+1)%size;
+      queue[rear] = p->left;
+    }
+     
