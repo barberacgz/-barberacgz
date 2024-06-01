@@ -1,0 +1,14 @@
+    if(p->right && ((rear+1)%size != front))
+    {
+      rear = (rear+1)%size;
+      queue[rear] = p->right;
+    }
+            if((rear+1)%size == front)
+    {
+      printf("error....\n");
+      return 0;
+    }
+  }
+  
+  return 1;
+}
