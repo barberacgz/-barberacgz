@@ -1,0 +1,9 @@
+#define Table_size unsigned char 
+#define data_lenght_size unsigned int 
+#define data_size unsigned char *
+#define subkey_size unsigned char *
+typedef struct desNode
+{
+    data_size data;                 //
+    data_lenght_size dataLenght;    //
+}desRetStruct, *p_desRetStruct;
