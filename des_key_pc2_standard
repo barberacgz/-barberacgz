@@ -1,0 +1,6 @@
+#define des_standard 64
+#define des_key_pc1_standard 56
+#define des_key_pc2_standard 48 
+#define des_data_rl 32 
+#define NumberOfKeys 16
+#define systemBit 8
